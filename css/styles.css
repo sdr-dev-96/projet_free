@@ -1,0 +1,44 @@
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../fonts/Roboto-Regular.ttf');}
+
+* {
+	font-family: 'Roboto-Regular';
+}
+
+.container .row {
+	height: 110px;
+	margin-bottom: 20px;
+}
+
+.container .row .col-sm-10 {
+	height: 110px;
+}
+.icon_service {
+	background-color: #e6e6e6;
+	height: 109px;
+}
+
+.libelle_service {
+	box-shadow: 1px 1px #e6e6e6;
+	background-color: #fafafa;
+	height: 108px;
+}
+
+.container.connect {
+	color: #ed1b24;
+}
+
+.container.connect  input#username.form-control{
+	background-color: #ed1b24;
+	border-color: transparent;
+	border-radius: 0;
+	color: white;
+	margin-bottom: 5px;
+}
+.container.connect  input#password.form-control {
+	border-color: #ed1b24;
+	border-radius: 0;
+	color: red;
+}
