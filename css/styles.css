@@ -135,3 +135,35 @@
 .navbar-header.left-navbar {
 	float: left;
 }
+
+.navbar-header .middle-navbar {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#programmes_tv .programme {
+	background-color: #F5F5F5;
+	color: #737373;
+	height: 90px;
+	padding: 0;
+}
+
+.chaine {
+	background-color: #ffffff;
+	border: 1px solid black;
+	height: 89px;	
+}
+
+.programme .progress {
+	background-color: #AFAFAF;
+	border-radius: 0;
+	height: 4px;
+	margin-bottom: 0;
+	margin-top: 13px;
+}
+
+
+.programme .progress-bar {
+	background-color: #ed1b24;
+	border: 1px solid red;
+}

@@ -26,7 +26,7 @@ require_once('inc/footer.html');
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-				<div class="col-sm-3 icon_service col-xs-5">
+				<div class="col-sm-3 icon_service col-xs-5" onclick="location.href='tv.php'">
 					
 				</div>
 				<div class="col-sm-9 text-center libelle_service col-xs-7">
