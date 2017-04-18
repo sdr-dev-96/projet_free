@@ -1,44 +1,137 @@
 
 @font-face {
 	font-family: 'Roboto-Regular';
-	src: url('../fonts/Roboto-Regular.ttf');}
+	src: url('../fonts/Roboto-Regular.ttf');
+}
 
 * {
 	font-family: 'Roboto-Regular';
 }
-
+/*page index*/
 .container .row {
-	height: 110px;
 	margin-bottom: 20px;
 }
 
-.container .row .col-sm-10 {
-	height: 110px;
-}
 .icon_service {
 	background-color: #e6e6e6;
 	height: 109px;
 }
 
+.icon_service:hover {
+	background-color: #5e5e5e;
+	cursor: pointer;
+}
+
 .libelle_service {
 	box-shadow: 1px 1px #e6e6e6;
 	background-color: #fafafa;
+	color: #5e5e5e;
 	height: 108px;
 }
-
+/*page connect*/
 .container.connect {
 	color: #ed1b24;
 }
 
-.container.connect  input#username.form-control{
+.container.connect .row {
+	height: auto;
+}
+
+.container.connect  input#login.form-control{
 	background-color: #ed1b24;
 	border-color: transparent;
 	border-radius: 0;
 	color: white;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
+
 .container.connect  input#password.form-control {
 	border-color: #ed1b24;
 	border-radius: 0;
-	color: red;
+	color: #ed1b24;
+}
+
+.connect .checked {
+	border: 1px solid #ed1b24;
+	cursor: pointer;
+	margin-top: 5px;
+	height: 21px;
+	width: 21px;
+}
+
+.connect .checked.active {
+	background-color: #ed1b24;
+	color: white;
+}
+
+.connect .checked .glyphicon-ok {
+	display: none;
+}
+
+.container.connect  #valider.form-control {
+	background-color: white;
+	border: 1px solid #ed1b24;
+	border-radius: 0;
+	color: #ed1b24;
+}
+
+.container.connect  #valider.form-control:hover {
+	background-color: #ed1b24;
+	color: white;
+	cursor: pointer;
+}
+/*placehoder du champ login*/
+#login::-webkit-input-placeholder
+{
+  color:    #fff;
+}
+
+#login:-moz-placeholder
+{
+  color:    #fff;
+}
+
+#login::-moz-placeholder
+{
+  color:    #fff;
+}
+
+#login:-ms-input-placeholder
+{
+  color:    #fff;
+}
+/*placeholder du champ password*/
+#password::-webkit-input-placeholder
+{
+  color:    #ed1b24;
+}
+
+#password:-moz-placeholder
+{
+  color:    #ed1b24;
+}
+
+#password::-moz-placeholder
+{
+  color:    #ed1b24;
+}
+
+#password:-ms-input-placeholder
+{
+  color:    #ed1b24;
+}
+
+.row a {
+	color: grey;
+}
+.row a:hover {
+	color: grey;
+}
+
+.navbar-header.right-navbar {
+	float: right;
+}
+
+.navbar-header.left-navbar {
+	float: left;
 }
