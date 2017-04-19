@@ -34,7 +34,7 @@ require_once('inc/footer.html');
  	</div>
  	<div class="row">
  		<div class="col-sm-10 col-sm-offset-1 col-xs-8 col-xs-offset-2">
- 			<div id="valider" type="text" class="form-control text-center" value="" name="login">
+ 			<div id="valider" type="text" class="form-control text-center" value="" name="valider">
  				Valider
  			</div>
  		</div>

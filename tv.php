@@ -9,6 +9,11 @@ require_once('inc/footer.html');
 					<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
 				</a>
 			</div>
+			<div class="navbar-header left-navbar free_home">
+				<a class="navbar-brand" href="index.php">
+					
+				</a>
+			</div>
 			<div class="navbar-header right-navbar">
 				<a href="#" class="navbar-brand">					
 					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
@@ -28,15 +33,19 @@ require_once('inc/footer.html');
 			1 => array(
 				'nom' => 'Esprits Criminels',
 				'heure_debut' => '20h50',
-				'heure_fin' => '23h00'),
+				'heure_fin' => '23h00',
+				'width' => 'width: 60%;'),
 			2 => array(
 				'nom' => 'Plus Belle la vie',
 				'heure_debut' => '21h00',
-				'heure_fin' => '22h45'),
+				'heure_fin' => '22h45',
+				'width' => 'width: 40%;'),
 			3 => array(
 				'nom' => 'Slam',
 				'heure_debut' => '20h30',
-				'heure_fin' => '21h00'),);
+				'heure_fin' => '21h00',
+				'width' => 'width: 75%;')
+			);
 		foreach ($programmes as $p) {
 			?>
 			<div class="row">
@@ -45,10 +54,10 @@ require_once('inc/footer.html');
 
 					</div>
 					<div class="col-sm-9 text-center programme col-xs-7">
-						<h3><?php echo $p['nom']; ?></h3>
+						<h4><?php echo $p['nom']; ?></h4>
 						<h5><?php echo $p['heure_debut'] . ' - ' . $p['heure_fin'];  ?></h5>
 						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="<?php echo $p['width']; ?>">
 							</div>
 						</div>
 					</div>
