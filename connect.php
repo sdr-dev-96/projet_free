@@ -13,14 +13,19 @@ require_once('inc/footer.html');
  		<div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center">
  			<h3>Connectez-vous</h3>
  		</div>
+ 		<div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center error_connect">
+ 			<h3></h3>
+ 		</div>
+
  	</div>
+ 	<div class="alert alert-danger text-center" role="alert" id="error_connect">...</div>
  	<div class="row">
  		<div class="col-sm-10 col-sm-offset-1 col-xs-8 col-xs-offset-2">
- 			<input id="login" type="text" class="form-control text-center" placeholder="exemple@free.fr" name="login"> 		
- 			<input id="password" type="password" class="form-control text-center" placeholder="Mot de passe" name="password">
+ 			<input id="login" type="text" class="form-control text-center" placeholder="exemple@free.fr" name="login" autocomplete="off"> 		
+ 			<input id="password" type="password" class="form-control text-center" placeholder="Mot de passe" name="password" autocomplete="off">
  		</div>
  	</div>
- 	<div class="row"> 		
+ 	<div class="row">
 		<div class="col-sm-2 col-sm-offset-9 col-xs-4 col-xs-offset-6">
 			<div class="col-sm-8 col-xs-8">
 				<h6>Mémoriser</h6>
@@ -34,7 +39,7 @@ require_once('inc/footer.html');
  	</div>
  	<div class="row">
  		<div class="col-sm-10 col-sm-offset-1 col-xs-8 col-xs-offset-2">
- 			<div id="valider" type="text" class="form-control text-center" value="" name="valider">
+ 			<div id="validAccount" type="text" class="form-control text-center" value="" name="valider">
  				Valider
  			</div>
  		</div>

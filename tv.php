@@ -50,10 +50,10 @@ require_once('inc/footer.html');
 			?>
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-					<div class="col-sm-2 chaine col-xs-4">
+					<div class="col-sm-3 chaine col-xs-4">
 
 					</div>
-					<div class="col-sm-9 text-center programme col-xs-7">
+					<div class="col-sm-9 text-center programme col-xs-8">
 						<h4><?php echo $p['nom']; ?></h4>
 						<h5><?php echo $p['heure_debut'] . ' - ' . $p['heure_fin'];  ?></h5>
 						<div class="progress">
@@ -67,4 +67,43 @@ require_once('inc/footer.html');
 			<?php
 		}
 	 ?>
+	</div>
+	<div class="side_menu">
+		<div class="row">
+		Mon compte
+		<br>
+		Sorya BORGHI
+		</div>
+		<div class="row">
+		Reprendre la lecture
+		<br><br>
+		Mes enregistrements
+		</div>
+		<div class="row">
+		Catégories
+		<br><br>
+		Regarder la télé
+		<br>
+		Chaînes
+		<br>
+		Films
+		<br>
+		Séries
+		<br>
+		Sport
+		<br>
+		Informations
+		<br>
+		Documentaires
+		<br>
+		Culture
+		<br>
+		Divertissement
+		<br>
+		Enfants
+		</div>
+		<div class="row">
+		Réglages
+		</div>
+
 	</div>
