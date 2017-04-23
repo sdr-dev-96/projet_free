@@ -27,7 +27,7 @@ require_once('inc/footer.html');
 		$services = array(
 			1 => array(
 				'libelle' => 'TV',
-				'page' => 'tv.php'),
+				'page' => 'tv.php',),
 			2 => array(
 				'libelle' => 'Téléphonie',
 				'page' => 'telephonie.php'),
@@ -42,7 +42,7 @@ require_once('inc/footer.html');
 		<div class="row">
 			<div class="col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
 				<div class="col-sm-3 icon_service col-xs-4" onclick="location.href='<?php echo $s['page'] ;?>'">
-					
+					<img src="img/picto_tv.svg" width="80">
 				</div>
 				<div class="col-sm-9 text-center libelle_service col-xs-8">
 					<h3><?php echo $s['libelle']; ?></h3>

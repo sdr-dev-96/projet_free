@@ -14,11 +14,17 @@
 .icon_service {
 	background-color: #e6e6e6;
 	height: 81px;
+	line-height: 80px;
+	text-align: center;
 }
 
 .icon_service:hover {
 	background-color: #5e5e5e;
 	cursor: pointer;
+}
+
+.icon_service img {
+	border: 1px solid red;
 }
 
 .libelle_service {
@@ -186,11 +192,12 @@
 .side_menu {
 	background-color: whitesmoke;
 	box-shadow: 1px 0 white;
+	display: none;
 	height: 100%;
 	padding-left: 40px;
 	padding-top: 15px;
 	position: absolute;
-	top: 0;
+	top: 52px;
 	width: 50%;
 }
 

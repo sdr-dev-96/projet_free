@@ -45,4 +45,12 @@ $(document).ready(function(){
 		}
 		
 	});
+
+	$(".glyphicon-menu-hamburger").click(function() {
+		if($('.side_menu').is(':hidden')){
+			$('.side_menu').toggle("slide");
+		}else {
+			$('.side_menu').toggle("slide");
+		}
+	});
 })
