@@ -134,3 +134,35 @@ require_once('inc/footer.html');
 		</div>
 
 	</div>
+	<div class="accounts">
+		<ul class="list-group">
+			<li class="list-group-item">
+				<a href="#">
+					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+					User 1	
+				</a>				
+			</li>
+			<li class="list-group-item">
+				<a href="#">
+					<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+					User 2	
+				</a>				
+			</li>
+			<li class="list-group-item">
+				<a href="#">
+					Gérer les comptes
+				</a>
+			</li>
+			<li class="list-group-item">
+				<a href="https://mobile.free.fr/moncompte/">
+					Mon Compte
+				</a>
+			</li>
+			<li class="list-group-item">
+				<a href="connect.php">
+					<span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+					Déconnexion
+				</a>
+			</li>
+		</ul>
+	</div>

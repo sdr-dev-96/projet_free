@@ -52,5 +52,15 @@ $(document).ready(function(){
 		}else {
 			$('.side_menu').toggle("slide");
 		}
+		$('.accounts').hide();
+	});
+
+	$('.glyphicon-user', $('.navbar-header')).click(function(){
+		if($('.accounts').is(':hidden')){
+			$('.accounts').toggle("slide");
+		}else {
+			$('.accounts').toggle("slide");
+		}
+		$('.side_menu').hide();
 	});
 })

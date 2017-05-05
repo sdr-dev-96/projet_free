@@ -170,7 +170,7 @@
 
 .chaine#tf1 {
 	background-image: url('../img/tf1.png');
-	background-size: 80px 47px;
+	background-size: 90px 47px;
 	background-position: 50%;
 	background-repeat: no-repeat;
 }
@@ -269,8 +269,8 @@
 }
 
 .side_menu {
-	background-color: whitesmoke;
-	box-shadow: 1px 0 white;
+	background-color: white;
+	box-shadow: 1px 0 black;
 	display: none;
 	height: 100%;
 	padding-left: 40px;
@@ -282,7 +282,7 @@
 
 .side_menu .row {
 	border-bottom: 1px solid #737373;
-	color: #737373;
+	color: #737373;;
 	font-size: 12px;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
@@ -298,11 +298,27 @@
 }
 
 .accounts {
-	background-color: whitesmoke;
-	border: 1px solid red;
-
+	/*background-color: whitesmoke;
+	border-bottom: 1px solid white;
+	border-left: 1px solid white;*/
+	color: #737373;
+	display: none;
+	height: 30%;
+	left: 52%;
+	position: absolute;
+	top: 51px;
+	width: 48%;
 }
 
-.accounts ul {
-	list-style: none;
+.accounts ul.list-group li a {
+	color: #737373;
+}
+
+.accounts ul.list-group li:hover {
+	background-color: #F5F5F5;
+	cursor: pointer;
+}
+
+.accounts ul.list-group li a:hover {
+	text-decoration: none;
 }
